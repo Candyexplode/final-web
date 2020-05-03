@@ -407,7 +407,6 @@ $(function() {
                 `<td class="align-middle">${ele.memo}</td>` +
                 `<td class="align-middle text-center">` +
                 `   <button class="btn btn-sm btn-info" title="edit" data-toggle="modal" data-target="#userFormModal" data-title="Edit" data-id="${ele._id}" data-index="${idx}">Edit</button>` +
-                `   <button class="btn btn-sm btn-danger" title="delete" onclick="toDeleteUser(event, ${idx})">Del</button>` +
                 '</td>' +
             '</tr>';
             dataGridBody.append(tr);
