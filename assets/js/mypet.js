@@ -658,5 +658,5 @@ $(function() {
     }
 
   });
-})('http://mypet-server.herokuapp.com');
+})('http://mypet-final-server.herokuapp.com');
 // })('http://192.168.80.129:8000');
