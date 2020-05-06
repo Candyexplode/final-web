@@ -652,7 +652,6 @@ $(function() {
                 `<td class="align-middle">${ele.city}</td>` +
                 `<td class="align-middle">${ele.content}</td>` +
                 `<td class="align-middle text-center">` +
-                `   <button class="btn btn-sm btn-info" title="edit" data-toggle="modal" data-target="#postFormModal" data-title="Edit" data-id="${ele._id}" data-index="${idx}">Edit</button>` +
                 `   <button class="btn btn-sm btn-danger" title="delete" onclick="toDeletePost(event, ${idx})">Del</button>` +
                 '</td>' +
                 '</tr>';
